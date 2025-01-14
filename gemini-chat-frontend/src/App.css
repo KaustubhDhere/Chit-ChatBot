@@ -1,0 +1,76 @@
+.App .response {
+    background-color: #424242;
+}
+
+
+
+.response {
+    margin: 0px 80px;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.header {
+    font-size: xx-large;
+    font-family: ui-sans-serif;
+    font-weight: lighter;
+}
+
+.mainContent {
+    background: none;
+    color: floralwhite;
+}
+
+.inputContainer {
+    margin: 0px 100px;
+    background-color: #424242;
+    border-radius: 10px;
+}
+
+
+.card-body {
+    max-height: 400px; /* Set a maximum height for the card content */
+    overflow-y: auto;  /* Enable vertical scrolling when content overflows */
+}
+
+/* Optional: Style the scrollbar for a modern look */
+.card-body::-webkit-scrollbar {
+    width: 8px; /* Width of the scrollbar */
+}
+
+.card-body::-webkit-scrollbar-thumb {
+    background: #888; /* Scrollbar thumb color */
+    border-radius: 4px; /* Rounded scrollbar */
+}
+
+.card-body::-webkit-scrollbar-thumb:hover {
+    background: #555; /* Scrollbar thumb hover effect */
+}
+
+
+.wave-animation {
+    display: inline-block;
+    overflow: hidden;
+    white-space: nowrap;
+    padding: 0px 20px;
+  }
+  
+  .wave-animation span {
+    display: inline-block;
+    animation: wave 1.5s ease-in-out infinite;
+    animation-delay: calc(var(--i) * 0.1s); /* Delay based on the character index */
+  }
+  
+  /* Define the wave animation */
+  @keyframes wave {
+    0%, 100% {
+      transform: translateY(0);
+    }
+    50% {
+      transform: translateX(20px); /* Move character upward */
+    }
+    50% {
+      transform: translateX(-20px); /* Move character upward */
+    }
+  }
+  
