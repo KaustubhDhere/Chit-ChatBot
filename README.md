@@ -16,8 +16,6 @@ A full-stack chatbot application featuring a **React frontend** and a **Java RES
 ### Backend:
 - **Java REST API**: Processes user input and returns chatbot responses.
 - **Spring Boot Framework**: Simplifies REST API development.
-- **Stateless Design**: Ensures scalable and secure communication.
-- **Tokenized API Response**: Provides metadata like token usage for responses.
 - **Custom Business Logic**: Implements intelligent response generation or integration with third-party services.
 
 ---
